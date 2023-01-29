@@ -5,212 +5,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project 3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 
 <body>
     <header>
-        <div class="wrapper header__wrapper">
-            <div class="header__logo">
-                <a href="/" class="header__logo-link">
-                    <img src="./images/logo.png" alt="Дизайн и верстка" class="header__logo-pic">
-                </a>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a href="#" class="text__editor header__link__1">ГЛАВНАЯ</a></li>
-                    <li class="header__item"><a href="#" class="text__editor header__link">ОБ АВТОРЕ</a></li>
-                    <li class="header__item"><a href="#" class="text__editor header__link">РАБОТЫ</a></li>
-                    <li class="header__item"><a href="#" class="text__editor header__link">ПРОЦЕСС</a></li>
-                    <li class="header__item"><a href="#" class="text__editor header__link">КОНТАКТЫ</a></li>
-                </ul>
+        <div class="wrapper">
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <nav>
+                <a href="#">О нас</a>
+                <a href="#">Проекты</a>
+                <a href="#">Контакты</a>
             </nav>
+            <div class="social-icons">
+                <img src="./images/instagram.png" alt="" class="social-icon">
+                <img src="./images/facebook.png" alt="" class="social-icon">
+                <img src="./images/linkedin.png" alt="" class="social-icon">
+            </div>
         </div>
     </header>
     <main>
-        <!-- Интро -->
-        <section class="intro">
-            <div class="wrapper intro__wrapper">
-                <div class="intro__img">
-                    <img src="./images/laptop__logo.png" alt="">
-                </div>
-                <div class="intro__item">
-                    <h1 class="intro__title">Дизайн и верстка</h3>
-                        <p class="intro__descr">
-                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
-                            является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                        </p>
-                        <form>
-                        <button  class="intro__button">НАПИСАТЬ МНЕ</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- О нас -->
-        <section class="about__me">
-            <div class="about__me__wrapper">
-                <h2 class="about__me__title">Обо мне</h2>
-                <p class="about__me__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            </div>
-        </section>
-        <!-- Количество проектов -->
-        <section class="numbers">
-            <div class="wrapper numbers__item">
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-                <div class="number__item"><img src="./images/numbers__item.png" alt="40+ проектов" class="numbers__img">
-                </div>
-            </div>
-        </section>
-        <!-- Мои навыки -->
-        <section class="skills">
-            <div class="wrapper skills__wrapper">
-                <div class="skills__info">
-                    <h3 class="skills__title">Мои навыки</h3>
-                    <div class="skills__scales">
-                        <div class="skill__scale">
-                            <p class="skill__name">Adobe Photoshop</p>
-                            <div class="skill__scale__outer">
-                                <div class="skill__scale__inner"></div>
-                            </div>
-                        </div>
-                        <div class="skill__scale">
-                            <p class="skill__name">Adobe Photoshop</p>
-                            <div class="skill__scale__outer">
-                                <div class="skill__scale__inner"></div>
-                            </div>
-                        </div>
-                        <div class="skill__scale">
-                            <p class="skill__name">Adobe Photoshop</p>
-                            <div class="skill__scale__outer">
-                                <div class="skill__scale__inner"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="./images/Rectangle 3.png" alt="" class="skills__img">
-            </div>
-        </section>
-        <!-- Как я работаю -->
-        <section class="process">
-            <div class="wrapper process__wrapper">
-                <h3 class="process__title">Как я работаю</h3>
-                <p class="process__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo qui
-                    aperiam quidem
-                    aut ipsa ex dolorum, officia nobis. Autem?</p>
-                <iframe src="https://www.youtube.com/embed/XWvrxlyG5F8" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen class="process__video">
-                </iframe>
-            </div>
-        </section>
-        <!-- Проекты -->
-        <section class="projects">
-            <div class="projects__item sticker">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item laptop">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item sticker">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item laptop">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item laptop">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item sticker">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item laptop">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-            <div class="projects__item sticker">
-                <div class="projects__item__inner">
-                    <img src="./images/eye.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Наши клиенты -->
-        <section class="customers">
-            <div class="wrapper customers__wrapper">
-                <div class="customers__img">
-                    <img src="./images/microsoft.png" alt="">
-                </div>
-                <div class="customers__img">
-                    <img src="./images/microsoft.png" alt="">
-                </div>
-                <div class="customers__img">
-                    <img src="./images/microsoft.png" alt="">
-                </div>
-                <div class="customers__img">
-                    <img src="./images/microsoft.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Форма -->
-        <section class="form">
-            <div class="form__wrapper">
-                <h3 class="form__title">Хотите веб-сайт?</h3>
-                <p class="form__decr">
-                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                    стандартной "рыбой" для текстов на латинице с начала XVI века.
+        <section class="about">
+            <img src="./images/about-img.png" alt="" class="about-img">
+            <div class="about-info">
+                <h1>О нас</h1>
+                <p class="about-descr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, totam sit voluptas blanditiis maxime
+                    excepturi recusandae eligendi aut earum sed fuga commodi accusamus. Minus veritatis cumque enim
+                    odio, quo itaque!
                 </p>
-                <form>
-                    <div class="form__control">
-                        <input type="text" name="name" placeholder="Ваше имя">
-                        <input type="email" name="email" placeholder="Ваш email">
+            </div>
+        </section>
+        <section class="project-section">
+            <div class="projects-wrapper">
+                <h2 class="our-project-title">Наши проекты</h2>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3 class="project-title text-editor">Газпром Арена</h3>
+                        <p class="project-descr">Мы сделали самую красивую арену в Европе. Это открытие стало для
+                            нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
                     </div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                    <input type="submit" value="Оставить отзыв">
-                </form>
+                    <div class="project-card">
+                        <h3 class="project-title text-editor">Газпром Арена</h3>
+                        <p class="project-descr">Мы сделали самую красивую арену в Европе. Это открытие стало для
+                            нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title text-editor">Газпром Арена</h3>
+                        <p class="project-descr">Мы сделали самую красивую арену в Европе. Это открытие стало для
+                            нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <!-- Нижняя панель -->
-    <footer>
-        <div class="wrapper footer__wrapper">
-            <div class="footer__info">
-                <h3 class="footer__name">Иванов Иван</h3>
-                <p class="footer__descr">(с) 2018. Все права защищены.</p>
-            </div>
-            <div class="footer__logos">
-                <img src="./images/vk_logo.png" alt="logo" class="footer__logo">
-                <img src="./images/vk_logo.png" alt="logo" class="footer__logo">
-                <img src="./images/vk_logo.png" alt="logo" class="footer__logo">
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <h3 class="footer-title">Контакты</h3>
+            <div class="footer-infoblocks">
+                <div class="footer-infoblock text-editor">
+                    <img src="./images/placeholder.png" alt="placeholder">
+                    <p class="info">
+                        АДРЕС:
+                    </p>
+                    <p class="info-descr">
+                        НЕВСКИЙ ПРОСПЕКТ 140, <br> ОФИС 140-142
+                    </p>
+                </div>
+                <div class="footer-infoblock text-editor">
+                    <img src="./images/phone.png" alt="phone">
+                    <p class="info">ТЕЛЕФОН:</p>
+                    <p class="info-descr">
+                        8 (812) 111-22-33 <br>
+                        8 (812) 111-22-33</p>
+                </div>
+                <div class="footer-infoblock text-editor">
+                    <img src="./images/watch.png" alt="working time">
+                    <p class="info">
+                        ВРЕМЯ РАБОТЫ:
+                    </p>
+                    <p class="info-descr">
+                        ПН-СБ <br>
+                        10:00 - 20:00
+                    </p>
+                </div>
+                <div class="footer-infoblock text-editor">
+                    <img src="./images/mail.png" alt="mail">
+                    <p class="info">
+                        E-MAIL:
+                    </p>
+                    <p class="info-mail">
+                        INFO@VIP.RU
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
 </body>
 </html>
-
-
